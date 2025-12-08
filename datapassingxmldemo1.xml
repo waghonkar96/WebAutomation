@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="un" value="Onkar"></parameter>
+  <parameter name="psw" value="Onkar@123"></parameter>
+    <classes>
+      <class name="testNG.DayaPassingUsingXMLfile"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
