@@ -5,7 +5,7 @@ public class ExcelUtilsDemo {
     public static void main(String[] args) {
 
         String projectpath = System.getProperty("user.dir");
-        ExcelUtils excel = new ExcelUtils(projectpath + "/Excel/Data.xlsx", "Sheet1");
+        ExcelUtils excel = new ExcelUtils(projectpath + "/Excel/Data.xlsx", "LoginData");
 
         excel.getRowCount();
         excel.getCellData(0, 0);

@@ -15,7 +15,7 @@ public class test1 {
 	{
 		WebDriverManager.chromedriver().setup();
     	WebDriver driver=new ChromeDriver();
-    	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+    	//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
     	driver.manage().window().maximize();
     	driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     	//username

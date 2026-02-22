@@ -1,4 +1,4 @@
-package testNG;
+package DataDrivenTest;
 
 import java.time.Duration;
 

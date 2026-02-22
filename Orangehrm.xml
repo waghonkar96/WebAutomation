@@ -5,7 +5,7 @@
 	  <parameter name="un" value="Admin"></parameter>
 	  <parameter name="psw" value="admin123"></parameter>
     <classes>
-      <class name="testNG.OrangeHrmXMLDataPassing"/>
+      <class name="DataPassingXML.OrangeHrmXMLDataPassing"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,4 +1,4 @@
-package testNG;
+package DataDrivenTest;
 
 import org.testng.annotations.DataProvider;
 

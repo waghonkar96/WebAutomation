@@ -17,7 +17,7 @@ public class helpdesk_applicant  extends valueFetching  {
 	public static void main(String[] args) throws Exception {
 		WebDriverManager.chromedriver().setup();
     	WebDriver driver=new ChromeDriver();
-    	driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+    	//driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
     	driver.manage().window().maximize();
     	String url =valueFetching.GetValues("url");
     	driver.get(url);

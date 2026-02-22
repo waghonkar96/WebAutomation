@@ -28,7 +28,7 @@ public class ExcelUtils {
     public int getRowCount() {
   
         int rowCount = sheet.getPhysicalNumberOfRows();
-        //System.out.println("Row count is: " + rowCount);
+        System.out.println("Row count is: " + rowCount);
         return rowCount;
     }
 
@@ -42,7 +42,7 @@ public class ExcelUtils {
 
     public void getCellDataNumber(int rowNum, int colNum) {
         double data = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
-        //System.out.println(data);
+        System.out.println(data);
         
     }
     

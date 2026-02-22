@@ -5,7 +5,7 @@
   <parameter name="un" value="Onkar"></parameter>
   <parameter name="psw" value="Onkar@123"></parameter>
     <classes>
-      <class name="testNG.DayaPassingUsingXMLfile"/>
+      <class name="DataPassingXML.DayaPassingUsingXMLfile"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
